@@ -1,1 +1,33 @@
 //Write your scss here and then compile it to "style.css"...
+
+body{
+    margin:0;
+}
+
+#mydiv{
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    background-color: black;
+}
+
+#bluediv{
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    background-color: blue;
+}
+
+#reddiv{
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    background-color: red;
+}
+
+#greendiv{
+    margin-top: 50px;
+    width: 250px;
+    height: 250px;
+    background-color: green;
+}

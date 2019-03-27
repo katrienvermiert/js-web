@@ -23,12 +23,58 @@
 
     <div class="container my-5 py-5 bg-white text-success">
 
-        
-
-
         <!-- PLACE YOUR CONTENT HERE-->
 
+        <Form id="myForm" name="SVAF">
+        <h1>Super Villain Application Form</h1>
 
+        <div class="row">
+            <div class="col-2">
+                <label for="box1">Super villain name:</label>
+            </div>
+            <div class="col-10">
+                <input id="box1" type="text" name="vill">
+            </div>
+        </div>
+
+        <div class="row">
+             <div class="col-2">
+                <label for="box2">Super power:</label>
+            </div>
+            <div class="col-10">
+                <input id="box2" type="text" name="pow">
+            </div>
+        </div>
+
+         <div class="row">
+            <div class="col-2">
+                <label for="box3">Motive:</label>
+            </div>
+            <div class="col-10">
+                <input id="box3" type="text" name="mot">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-2">
+                <label for="box4">Plan to conquer world:</label>
+            </div>
+            <div class="col-10">
+                <textarea name="plan" id="box4" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+             <div class="col-2"></div>
+            <div class="col-10">
+                <input type="button" value="Reset" onclick="myReset()">
+                <input type="button" value="Display" onclick="myDisplay()">
+            </div>
+        </div>
+       
+        
+
+        </Form>
 
 
     </div>

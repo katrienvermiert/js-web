@@ -1,1 +1,10 @@
 //Write your scss here and then compile it to "style.css"...
+body{
+    margin: 0;
+}
+
+#carousel{
+    width: 512px;
+    height: 512px;
+    border: solid 6px black;
+}

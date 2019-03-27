@@ -1,1 +1,19 @@
 //Write your scss here and then compile it to "style.css"...
+body{
+    margin: 0;
+    
+}
+
+.container{
+    height: 450px;
+}
+
+button{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(168, 168, 56);
+    color: white;
+    border: solid 2px gray;
+    border-radius: 10px;
+}

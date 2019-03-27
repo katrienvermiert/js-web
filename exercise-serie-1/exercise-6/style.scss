@@ -1,1 +1,17 @@
 //Write your scss here and then compile it to "style.css"...
+body{
+    margin: 0;
+}
+
+.responsive {
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
+}
+
+button{
+    width: 100px;
+    border-radius: 5px;
+    background-color: rgb(75, 75, 128);
+    color: white;
+}

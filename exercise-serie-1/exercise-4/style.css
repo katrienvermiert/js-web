@@ -1,1 +1,39 @@
-/*Use the .scss file instead!*/
+body {
+  margin: 0;
+}
+
+.container {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 550px;
+}
+
+#myDay, #myMonth, #myYear {
+  background-color: #27a0a0;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border: solid 2px #373775;
+}
+
+button {
+  background-color: #27a0a0;
+  color: white;
+  width: 100px;
+  height: 30px;
+  border: solid 2px #373775;
+  margin-left: 30px;
+  border-radius: 10px;
+}
+
+#result {
+  margin-top: 50px;
+  width: 300px;
+  height: 30px;
+  border: solid 2px #373775;
+  background-color: #27a0a0;
+  color: white;
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */

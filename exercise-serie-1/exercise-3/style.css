@@ -1,1 +1,15 @@
-/*Use the .scss file instead!*/
+body {
+  margin: 0;
+}
+
+#box1, #box2, #box3 {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#box4 {
+  margin-top: 5px;
+  height: 150px;
+}
+
+/*# sourceMappingURL=style.css.map */

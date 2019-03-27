@@ -1,1 +1,19 @@
-/*Use the .scss file instead!*/
+body {
+  margin: 0;
+}
+
+.container {
+  height: 450px;
+}
+
+button {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  background-color: #a8a838;
+  color: white;
+  border: solid 2px gray;
+  border-radius: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */
